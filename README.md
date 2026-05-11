@@ -8,6 +8,7 @@ git clone https://github.com/NVIDIA-Omniverse/LearnOpenUSD.git
 cd LearnOpenUSD
 git lfs pull
 ```
+このgithubに存在する3つのファイルを
 ```
 # entrypoint.sh に実行権限を付与
 chmod +x entrypoint.sh
