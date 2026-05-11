@@ -3,7 +3,7 @@
 # Base: Python 3.12 slim (usd-core は CPU ベースで動作)
 # GPU レンダリングが必要な場合は nvcr.io/nvidia/cuda ベースに変更可
 # ============================================================
-FROM python:3.12-slim
+FROM --platform=linux/amd64 python:3.12-slim
 
 # --------------------
 # システムパッケージ
